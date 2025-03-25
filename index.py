@@ -1,7 +1,4 @@
 def listSum(numbers):
-  if not numbers:
-    return 0
-  else:
     (f, rest) = numbers
     return f + listSum(rest)
 
