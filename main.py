@@ -1,10 +1,12 @@
 import requests
 
-api_key = 'fcfb83a8'
+api_key = 'fcfj34j'
 
 movie_name = input()
 
-response = requests.get(f'https://www.omdbapi.com/?t={movie_name}&apikey={api_key}')
+
+
+response = requests.get(f'')
 
 
 print(response.json())
